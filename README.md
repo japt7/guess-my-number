@@ -16,7 +16,8 @@ let secretNumber = Math.trunc(Math.random() * 20) + 1;
   - The 'check' button for user input (class - .check)
   - The amount of points for the player (class - .score)
 
-- I learned the difference between document.querySelector and document.GetElementById. For this lesson,I only used .querySelector.
+- I learned the difference between **document.querySelector** and **document.GetElementById**. For this lesson,I only used **.querySelector**.
+-
 
 ```javascript
 document.querySelector('.message').textContent = message;
