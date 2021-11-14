@@ -22,7 +22,7 @@ let secretNumber = Math.trunc(Math.random() * 20) + 1;
 document.querySelector('.message').textContent = message;
 ```
 
-- I also learned how to implement an event listener. The event function below listens for a click and then resets the gain when the user clicks 'agin'.
+- I also learned how to implement an event listener. The event function below listens for a click and then resets the gain when the user clicks 'again'.
 
 ```javascript
 document.querySelector('.again').addEventListener('click', function () {
