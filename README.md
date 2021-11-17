@@ -17,13 +17,12 @@ let secretNumber = Math.trunc(Math.random() * 20) + 1;
   - The amount of points for the player (class - .score)
 
 - I learned the difference between **document.querySelector** and **document.GetElementById**. For this lesson,I only used **.querySelector**.
--
 
 ```javascript
 document.querySelector('.message').textContent = message;
 ```
 
-- I also learned how to implement an event listener. The event function below listens for a click and then resets the gain when the user clicks 'agin'.
+- I also learned how to implement an event listener. The event function below listens for a click and then resets the gain when the user clicks 'again'.
 
 ```javascript
 document.querySelector('.again').addEventListener('click', function () {
